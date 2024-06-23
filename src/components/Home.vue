@@ -8,7 +8,7 @@
             <h1 class="headbgc">MICHEAL XAVIER A</h1>
             <h2 class="headbgc">Software Developer</h2>
             <p class="text2" v-html="summary"></p>
-            <button class="download-button">Hire Me!</button>
+            
         </div>
         </div>
     </div>
@@ -65,6 +65,10 @@ import jsImage from '../assets/js.jpg';
 import vueImage from '../assets/vue.png';
 import routerImage from '../assets/router.png';
 import piniaImage from '../assets/pinia.jpg';
+import csImage from '../assets/cs.png';
+import aspImage from '../assets/net.jpg';
+import sqlImage from '../assets/sql.png';
+import phpImage from '../assets/php.png';
 import gitImage from '../assets/git.png';
 
 import { ref } from 'vue';
@@ -73,11 +77,11 @@ const summary = ref([
   ]);
 
   const profess = ([
-    'Passionate and skilled frontend developer fresh out of university, well-versed in HTML5, CSS3, JavaScript and VueJs3 . Excited to apply my knowledge to create engaging web interfaces. Quick learner, committed to staying updated on the latest frontend trends. Strong team player, eager to collaborate and contribute to innovative projects in a dynamic setting, aiming for professional growth'
+    'Passionate and skilled software developer fresh out of university, well-versed in HTML5, CSS3, JavaScript, VueJs3, C#, ASP .NET MVC, PHP and SQL. Excited to apply my knowledge to create engaging web applications. Quick learner, committed to staying updated on the latest technologies. Strong team player, eager to collaborate and contribute to innovative projects in a dynamic setting, aiming for professional growth.'
   ]);
 
   const skillsummary = ([
-    'Skilled in building dynamic and responsive web applications using Vue.js, Vue Router, and Pinia for state management. Proficient in HTML5, CSS3, and JavaScript.'
+    'MCA graduate skilled in front-end technologies like HTML, CSS, JavaScript, and Vue.js 3 (with Vue Router and Pinia). Proficient in back-end development using C# and ASP.NET MVC, along with SQL for database management. Competent in PHP for server-side scripting and integrating full-stack solutions. Strong problem-solving skills and familiarity with Agile methodologies. Proven ability to develop robust, scalable, and maintainable web applications.'
   ])
 
                 const imageUrl = ref(xavierImage);
@@ -145,9 +149,38 @@ const summary = ref([
     proficiencyLevel: 'Intermediate',
     description: 'Skilled in state management using Pinia, managing application state efficiently and ensuring seamless data flow across components.'
   },
+
+  {
+  id: 7,
+  imageUrl: csImage,
+  name: 'C#',
+  proficiencyLevel: 'Intermediate',
+  description: 'Proficient in C# programming for developing robust and efficient back-end solutions.'
+},
+{
+  id: 8,
+  imageUrl: aspImage,
+  name: 'ASP.NET MVC',
+  proficiencyLevel: 'Intermediate',
+  description: 'Experienced in developing web applications using the ASP.NET MVC framework, following the Model-View-Controller pattern.'
+},
+{
+  id: 9,
+  imageUrl: phpImage,
+  name: 'PHP',
+  proficiencyLevel: 'Intermediate',
+  description: 'Competent in using PHP for server-side scripting and building dynamic web applications.'
+},
+{
+  id: 10,
+  imageUrl: sqlImage,
+  name: 'SQL',
+  proficiencyLevel: 'Advanced',
+  description: 'Strong understanding of SQL for designing, querying, and managing relational databases, including optimization techniques.'
+},
   
   {
-    id:7,
+    id:11,
     imageUrl: gitImage,
     name: 'Git',
     proficiencyLevel: 'Basic',
@@ -161,36 +194,35 @@ const summary = ref([
 
 <style scoped>
 .mich {
-    background-image: url('@/assets/back.jpg');
-   
+    background-image: url('@/assets/back1.jpg');
     background-size: cover;
     background-position: center;
-    
-}
-.headcontainer{
-     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100vh;
-}
-.h-left {
-    width: 50%;
-    margin-right: 150px;
-    margin-top: 30px;
+    height: 100vh; /* Adjust the height as needed */
 }
 
+.headcontainer {
+    display: flex;
+    flex-direction: column; /* Change to column on smaller screens */
+    align-items: center;
+    width:100%; /* Center content */
+}
+
+.h-left{
+width: 70%;
+margin-right: 480px;
+}
 .h-right {
-    width: 50%;
+    width: 30%;
+     /* Full width on smaller screens */
     
 }
 
 .image {
-    margin-left: 80px;
-    margin-top: 80px;
-    width: 50%;
-    height: 50%;
+    width: 200px; /* Adjust image size */
+    height: 200px; /* Adjust image size */
     border-radius: 50%;
     object-fit: cover;
+    margin: 20px 0; /* Adjust spacing */
 }
 
 .download-button {
@@ -205,5 +237,42 @@ const summary = ref([
 
 .download-button i {
     margin-right: 5px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .headcontainer {
+        flex-direction: row; /* Align items in a row on larger screens */
+    }
+
+    .h-left {
+        width: 50%;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+
+    .h-right {
+        width: 50%;
+    }
+
+    .image {
+        width: 250px;
+        height: 250px;
+        margin-left: 80px;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image {
+        width: 150px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .download-button {
+        padding: 8px 16px;
+    }
 }
 </style>

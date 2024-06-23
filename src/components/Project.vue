@@ -11,7 +11,8 @@
     <p class="card-d">{{ project.technologies.join(', ') }}</p>
     <h2>Description:</h2>
     <p class="card-d">{{ project.description }}</p>
-    <p class="card-d">{{ project.githubLink }}</p>
+   <a class="card-d" :href="project.githubLink" target="_blank">{{ project.githubLink }}</a>
+
 </div>
 </div>
 </template>

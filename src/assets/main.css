@@ -1,197 +1,203 @@
-body{
-    margin: 0;
-    
+body {
+  margin: 0;
 }
 
-
-
-
-.image{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  
-}
-.logo{
-       width: 30%;
-       height: 20%; /* Adjust as needed */
-       border-radius: 50%;
-   }
-.container{
-    display: flex;
-    flex-direction: row;
-    margin-top: 3px;
-}
-.left{
-    width: 35%;
-    
-    background-color: #0888f1;
-} 
-.r1{
-    margin-left: 20px;
-    margin-right: 20px;
-    color: white;
-
-}
-.text{
-    font-size: 25px;
-}
-.text2{
-    font-size: 25px;
-    line-height: 40px;
-}
-.text3{
-    font-size: 25px;
-    line-height: 40px;
-    margin-left: 80px;
-    margin-right: 80px;
-    text-align: center;
-}
-.edu{
-    margin-left: 20px;
-    line-height: 0.5;
-}
-.r2{
-    margin-left: 20px;
-    margin-right: 20px;
+.image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
 
-.right{
-    width: 65%;
-    margin-right: 20px;
+.logo {
+  width: 30%;
+  height: 20%; /* Adjust as needed */
+  border-radius: 50%;
 }
-.head{
-    background-color: #0888f1;
-    color: white;
-}
-.para {
-    font-size: 20px;
-    position: static;
-    }
- .summary{
-    
-    margin-left: 250px;
-    margin-right: 250px;
-    /*background-image: url('back1.jpg');
-    border: 2px solid #ffffff;
-    border-radius: 15px;
-    overflow: hidden;
-    width: 50%;*/
-    text-align: center;
- }   
- .headbg{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 900;
-    font-size: 50px;
-    text-align: center;  
- }
- .headbgc{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    text-align: center;
- }
- .education{
-    background-image: url('../assets/2.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    text-align: center;
 
-   
- }
- .educard{
-    display: flex;
-    flex-direction: row;
-    margin-left: 80px;
-    margin-right: 80px;
- }
- 
- 
- .card {
-    
-    
-    margin-left: 10px;
-    margin-right: 10px;
-    width: calc(33.33% - 20px);
-    height: 350px; 
-    background-color: white;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 4px solid transparent; 
-  }
-  .card-title{
-    font-size: 25px;
-   
-  }
-  .skill {
-    display: flex;
-    flex-wrap: wrap; 
-    flex-direction: row;
-    gap: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-  
-  
-  .skillcard {
-    border: 10px solid #000000;
-    overflow: hidden;
-    width: calc(40% - 120px);
-    background-color: #fff2e0;
-    height: 470px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 1px solid transparent;
-  }
-  .skill-image {
-    width: 20%;
-    display: block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 20%;
-    background-color: rgb(238, 238, 238);
-  }
-  
-  
-  .skillcard-body {
-    padding: 1rem;
-  }
-  .skillhead{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    text-align: center;
-    line-height: 0; 
-    color: #000000;
-    
-  
- }
- .skillpara{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    
-  
- }
- .cardbg{
-    background-color: #ff9100;
-    height: 200px;
-    
- }
- .cardcontent{
-    color: white;
-    margin-left: 10px;
-    margin-right: 10px;
- }
- .filter{
-    background-image: url('../assets/back1.jpg');
-    margin-right: 30px;
-    margin-left: 30px;
- }
- .project {
+.container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  margin-top: 3px;
+}
+
+.left {
+  width: 35%;
+  background-color: #0888f1;
+}
+
+.r1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.text {
+  font-size: 25px;
+}
+
+.text2 {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.text3 {
+  font-size: 25px;
+  line-height: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.edu {
+  margin-left: 20px;
+  line-height: 0.5;
+}
+
+.r2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.right {
+  width: 65%;
+  margin-right: 20px;
+}
+
+.head {
+  background-color: #0888f1;
+  color: white;
+}
+
+.para {
+  font-size: 20px;
+  position: static;
+}
+
+.summary {
+  margin-left: 250px;
+  margin-right: 250px;
+  /*background-image: url('back1.jpg');
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 50%;*/
+  text-align: center;
+}
+
+.headbg {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+}
+
+.headbgc {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.education {
+  background-image: url('../assets/2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+.educard {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc(33.33% - 20px);
+  height: 350px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 4px solid transparent;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.skillcard {
+  border: 10px solid #000000;
+  overflow: hidden;
+  width: calc(40% - 120px);
+  background-color: #ffffff;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 0px solid transparent;
+}
+
+.skill-image {
+  width: 30%;
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20%;
+  background-color: rgb(238, 238, 238);
+}
+
+.skillcard-body {
+  padding: 5px;
+  height: 60%;
+}
+
+.skillhead {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 0;
+  color: #000000;
+}
+
+.skillpara {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.cardbg {
+  background-color: #ffec40;
+  height: 300px;
+}
+
+.cardcontent {
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.filter {
+  background-image: url('../assets/back1.jpg');
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 40px; /* Adjust the gap between the cards */
   justify-content: space-between; /* Ensures cards are spaced evenly */
   padding: 0 60px; /* Adjust padding instead of margin to control spacing */
@@ -208,11 +214,102 @@ body{
   margin-bottom: 20px; /* Space between rows */
 }
 
-  .project-title{
-    font-size: 25px;
-   
+.project-title {
+  font-size: 25px;
+}
+
+.card-d {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
   }
-  .card-d{
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .summary {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .educard {
+    flex-direction: column;
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .text,
+  .text2,
+  .text3,
+  .card-title,
+  .project-title,
+  .skillhead {
+    font-size: 20px;
+  }
+
+  .educard {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .skill,
+  .project {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .card,
+  .skillcard,
+  .project-card {
+    width: 100%;
+  }
+
+  .summary {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text,
+  .text2,
+  .text3,
+  .card-title,
+  .project-title,
+  .skillhead {
+    font-size: 16px;
+  }
+
+  .card,
+  .skillcard,
+  .project-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .skill-image {
+    width: 50%;
+    height: auto;
+  }
+
+  .summary {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .project,
+  .skill {
+    gap: 20px;
+  }
+}
