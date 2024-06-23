@@ -241,6 +241,7 @@ body {
 
   .educard {
     flex-direction: row;
+    height: auto;
   }
 
   .project-card {
@@ -256,12 +257,13 @@ body {
   .card-title,
   .project-title,
   .skillhead {
-    font-size: 10px;
+    font-size: auto;
   }
 
   .educard {
     margin-left: 20px;
     margin-right: 20px;
+    height: auto;
   }
 
   .skill,
@@ -290,7 +292,7 @@ body {
   .card-title,
   .project-title,
   .skillhead {
-    font-size: 10px;
+    font-size: auto;
   }
 
   .card,

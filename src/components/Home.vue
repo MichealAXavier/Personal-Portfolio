@@ -138,7 +138,7 @@ const summary = ref([
   {
     id:5,
     imageUrl: routerImage,
-    name: 'Vue Router',
+    name: 'Router',
     proficiencyLevel: 'Intermediate',
     description: 'Proficient in implementing client-side routing in Vue.js applications, enabling navigation between views with nested routes and route guards.'
   },
@@ -160,7 +160,7 @@ const summary = ref([
 {
   id: 8,
   imageUrl: aspImage,
-  name: 'ASP.NET MVC',
+  name: '.NET',
   proficiencyLevel: 'Intermediate',
   description: 'Experienced in developing web applications using the ASP.NET MVC framework, following the Model-View-Controller pattern.'
 },
