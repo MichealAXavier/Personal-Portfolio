@@ -215,7 +215,7 @@ body {
 }
 
 .project-title {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .card-d {
@@ -240,11 +240,12 @@ body {
   }
 
   .educard {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .project-card {
     max-width: 100%;
+    height: auto;
   }
 }
 
@@ -255,7 +256,7 @@ body {
   .card-title,
   .project-title,
   .skillhead {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .educard {
@@ -273,6 +274,7 @@ body {
   .skillcard,
   .project-card {
     width: 100%;
+    height: auto;
   }
 
   .summary {
@@ -288,7 +290,7 @@ body {
   .card-title,
   .project-title,
   .skillhead {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .card,
